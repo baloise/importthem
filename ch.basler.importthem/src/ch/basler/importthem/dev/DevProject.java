@@ -27,7 +27,7 @@ import ch.basler.importthem.io.UnZip;
 public class DevProject {
   public final static String HOME = System.getProperty("user.home") + "/.importThem";
   public final static String SCRIPT_NAME = "script.groovy";
-  public static final String NAME = "ch.basler.importthem.dev_";
+  public static final String NAME = "ch.basler.importthem.dev";
   public final static File SCRIPT = new File(HOME + "/" + NAME + "/src/" + SCRIPT_NAME);
 
   public static void createDevProject() throws IOException, CoreException {
