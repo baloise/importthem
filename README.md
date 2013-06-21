@@ -6,7 +6,10 @@ Import a bunch of projects.
 
 Goovy is used to specify the imports.
 
-You have to install 
+
+### install 
+
+via [update site](http://baloise.github.io/importthem/updatesite/) 
 
 Extra Groovy commpilers/Groovy Commpiler 2.0 Feature 
 
