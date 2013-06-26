@@ -52,4 +52,4 @@ Selection are the selected folders in the package explorer.
 The selection could be traversed in the groovy script itself, seekProjects is just a default behaviour.
 In the example script the resulting map is edited by replacing sub1 with module1 and so on.
 
-
+An example project can be found [here](https://github.com/baloise/importthem/example/itexample.zip "Example project").
