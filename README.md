@@ -24,7 +24,15 @@ In the preference page of eclipse you can see the currently used groovy script w
 ![Eclipse Preference Page](images/preferences.PNG)
 
 
-Whens switching to Development you have Import Them project in your workspace and can edit the groovy script.
+When switching to Development you have Import Them project in your workspace and can edit the groovy script.
 
+If you have a folder in your workspace (only possible in Package Explorer not in Project Explorer) with
+a folder and project structure like:
+
+![Folder Structure](images/projectTree.PNG)
+
+With the standard behaviour where we will get two working sets sub1 and sub 2 where sub1 contains projects sub1proj1 and sub1proj2.
+Workingset sub2 would contain sub2proj2. 
+When in Development mode right clicking the projects folder and selecting Import them will execute a dry-run.
 
 
