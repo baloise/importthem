@@ -11,7 +11,7 @@ standard feature or write your own in groovy.
 
 via [update site](http://baloise.github.io/importthem/updatesite/) 
 
-Extra Groovy commpilers/Groovy Commpiler 2.0 Feature 
+Extra Groovy compilers/Groovy Compiler 2.0 Feature 
 
 Groovy-Eclipse/Groovy-Eclipse Feature
 
@@ -31,8 +31,23 @@ a folder and project structure like:
 
 ![Folder Structure](images/projectTree.PNG)
 
-With the standard behaviour where we will get two working sets sub1 and sub 2 where sub1 contains projects sub1proj1 and sub1proj2.
-Workingset sub2 would contain sub2proj2. 
+With the standard behaviour we will get two working sets sub1 and sub 2 where sub1 contains projects sub1proj1 and sub1proj2.
+Working set sub2 would contain sub2proj2. 
 When in Development mode right clicking the projects folder and selecting Import them will execute a dry-run.
+
+Expect you modified the standard behaviour like:
+
+![Mod Script](images/modScript.PNG)
+
+The dry-run will then show the following result.
+
+![Dry Run](images/dryRun.PNG)
+
+The parameters of the script are map and selection.
+The key of the map is the name of the working, when using seekProjects it is the name of the parent parent folder
+of the .project file.
+Selection are the selected folders in the package explorer.
+The selection could be traversed in the groovy script itself, seekProjects is just a default behaviour.
+In the example script the resulting map is edited by replacing sub1 with module1 and so on.
 
 
