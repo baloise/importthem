@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
 
-<target name="rcp" sequenceNumber="80">
+<target name="rcp" sequenceNumber="84">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.rcp.sdk.id" version="4.3.0.I20130530-1430"/>
-<unit id="org.eclipse.equinox.executable.feature.group" version="3.6.0.v20130521-0416"/>
-<unit id="org.eclipse.platform.sdk" version="4.3.0.I20130530-1430"/>
-<unit id="org.eclipse.jdt.feature.group" version="3.9.0.v20130530-1629"/>
+<unit id="org.eclipse.rcp.sdk.id"/>
+<unit id="org.eclipse.equinox.executable.feature.group"/>
+<unit id="org.eclipse.platform.sdk"/>
+<unit id="org.eclipse.jdt.feature.group"/>
 <repository location="http://download.eclipse.org/releases/kepler"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.codehaus.groovy21.feature.feature.group" version="2.8.0.xx-20130618-1500-e43"/>
-<unit id="org.codehaus.groovy.jdt.patch.feature.group" version="2.8.0.xx-20130618-1500-e43"/>
-<unit id="org.codehaus.groovy.headless.feature.feature.group" version="2.8.0.xx-20130618-1500-e43"/>
+<unit id="org.codehaus.groovy21.feature.feature.group" />
+<unit id="org.codehaus.groovy.jdt.patch.feature.group" />
+<unit id="org.codehaus.groovy.headless.feature.feature.group"/>
 <repository location="http://dist.springsource.org/snapshot/GRECLIPSE/e4.3/"/>
 </location>
 </locations>
